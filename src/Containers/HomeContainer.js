@@ -36,6 +36,10 @@ const HomeContainer = () => {
 						<div className="row px-2">
 							<TimeSlot />
 						</div>
+
+						<div className="px-2 mt-4">
+							<button className='pay-btn'>Proceed to Pay</button>
+						</div>
 					</div>
 				</div>
 			</div>

@@ -54,6 +54,7 @@
 	border: 3px solid #2e4f7c;
 	font-size: small;
 	cursor: pointer;
+	transition: 0.15s ease-in-out;
 }
 
 .card:hover {
@@ -76,9 +77,55 @@
 	font-size: small;
 	border-radius: 8px;
 	padding: 7px 12px;
+	transition: 0.15s ease-in-out;
 }
 
 .slot-button:hover {
 	background-color: #279124;
 	color: white !important;
+}
+
+.pay-btn {
+	border: none;
+	outline: none;
+	background-color: #193258;
+	border: 3px solid #193258;
+	color: #fff;
+	font-size: small;
+	border-radius: 5px;
+	padding: 7px 12px;
+	transition: 0.15s ease-in-out;
+}
+
+.pay-btn:hover {
+	background-color: #fff;
+	color: #193258;
+}
+
+.navbar-toggler {
+	position: fixed;
+	right: 2%;
+}
+
+@media screen and (max-width: 481px) {
+	.navbar {
+		position: fixed;
+		height: fit-content !important;
+		width: 100% !important;
+		background-color: #fff;
+	}
+	.navbar-collapse {
+		position: fixed;
+		top: 10%;
+		right: -30%;
+		
+	}
+	.navbar-nav {
+		width: 30% !important;
+		
+	}
+	.navbar-brand {
+		position: fixed;
+		left: 20px;
+	}
 }
