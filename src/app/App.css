@@ -1,0 +1,84 @@
+.navbar {
+	width: 20vw !important;
+	height: 100vh !important;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.adjust-left {
+	margin-left: 20vw !important;
+	width: 80vw !important;
+}
+
+.navbar-brand {
+	font-weight: bold;
+}
+
+.color-red {
+	color: #ce284f !important;
+}
+
+.color-blue {
+	color: #536987 !important;
+}
+
+.nav-item {
+	border: 2px solid #e8edf1;
+	font-size: small;
+	background-color: #e8f1fe;
+}
+
+.nav-link {
+	color: #2e4f7c !important;
+	font-weight: bold;
+}
+
+.current {
+	background-color: #97c0ff !important;
+}
+
+.larr-btn {
+	background-color: transparent;
+	border: none;
+	outline: none;
+}
+
+.mixed-border {
+	border-bottom: 4px solid;
+	border-image: linear-gradient(to right, #385382 50%, #ce284f 50%) 1;
+}
+
+.card {
+	width: 100% !important;
+	border: 3px solid #2e4f7c;
+	font-size: small;
+	cursor: pointer;
+}
+
+.card:hover {
+	background-color: #279124;
+	color: white !important;
+}
+
+.card-body {
+	font-weight: 500;
+}
+
+.date {
+	font-size: medium !important;
+}
+
+.slot-button {
+	background-color: transparent;
+	outline: none;
+	border: 3px solid #2e4f7c;
+	font-size: small;
+	border-radius: 8px;
+	padding: 7px 12px;
+}
+
+.slot-button:hover {
+	background-color: #279124;
+	color: white !important;
+}
