@@ -112,7 +112,7 @@
 		position: fixed;
 		height: fit-content !important;
 		width: 100% !important;
-		background-color: #fff;
+		background-color: white;
 	}
 	.navbar-collapse {
 		position: fixed;
